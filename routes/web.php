@@ -1,11 +1,5 @@
 <?php
-
-route::get ('/', 'ViewController@index');
-route::get ('/halamanawal', 'ViewController@chalamanawal');
-route::get ('/tambah', 'ViewController@ctambah');
-route::get ('/edit', 'ViewController@cedit');
-
-/*Route::get('/', function(){
+Route::get('/', function(){
 	return view('home');
 });
 
@@ -20,7 +14,6 @@ Route::get('/edit', function(){
 Route::get('/tambah', function(){
 	return view('tambah');
 });
-*/
 
 
 
